@@ -24,14 +24,14 @@ class ViewController: UIViewController {
     }
 
     @IBAction func wlcmPressed(_ sender: AnyObject) {
-        textBtn.isHidden = false
+        textBtn.isHidden = true
         background.isHidden = false
         wlcmBtn.isHidden = true
         
     }
 
     @IBAction func txtBtnPress(_ sender: AnyObject) {
-        textBtn.isHidden = true
+        textBtn.isHidden = false
         background.isHidden = true
         wlcmBtn.isHidden = false
     }
